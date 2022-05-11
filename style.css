@@ -1,0 +1,85 @@
+* {
+    font-family: 'Barlow';
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0o;
+}
+
+.body {
+    align-items: center;
+    background: linear-gradient(300deg, aliceblue 40%, rgb(182, 182, 182) 80%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(236, 196, 232);
+    border-radius: 5px;
+    height: 700px;
+    padding: 30px;
+    width: 500px;
+}
+
+h3 {
+    color: rgb(91, 41, 91);
+}
+
+.control {
+    border: 1px solid #ccc;
+    border-radius: 3PX;
+    color: black;
+    padding: 5px;
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+    gap: 1em;
+}
+
+.cont {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.operators {
+    margin-top: 40px;
+}
+
+.buttons {
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+.add {
+    background-color: rgb(255, 92, 119);
+}
+
+.subtract {
+    background-color: rgb(252, 112, 252)
+}
+
+.product {
+    background-color: rgb(141, 141, 255);
+}
+
+.division {
+    background-color: rgb(91, 41, 91);
+}
+
+.modulus {
+    background-color: rgb(141, 141, 255);
+}
+
+#result {
+    color: rgb(165, 36, 36);
+    font-size: 60px;
+    text-align: center;
+}
